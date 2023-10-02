@@ -1,0 +1,53 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+// Input: Two numbers, num1 and num2
+// Output: The sum of num1 and num2
+
+1. Start
+2. Declare variables num1 and num2
+3. Initialize num1 with a value
+4. Initialize num2 with a value
+5. Declare a variable sum and set it to 0
+6. Add num1 and num2, and store the result in sum
+7. Display the value of sum
+8. End
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+// Input: A number, num
+// Output: "Even" if num is even, "Odd" if num is odd
+
+1. Start
+2. Declare a variable num
+3. Initialize num with a value
+4. If num is divisible by 2 with no remainder, then
+5.     Display "Even"
+6. Else
+7.     Display "Odd"
+8. End
+
+// Exercise 3: 
+// a) Read in 5 separate numbers.
+1. Start
+2. Declare an array of 5 numbers called "numbers"
+3. Declare variables sum, average, minimum, and maximum
+4. Initialize sum to 0
+5. Initialize minimum and maximum with the first number entered
+6. For i = 1 to 5
+7.     Input a number and store it in numbers[i]
+8.     Add numbers[i] to sum
+9.     If numbers[i] < minimum, set minimum to numbers[i]
+10.    If numbers[i] > maximum, set maximum to numbers[i]
+11. End for
+12. 
+// b) Calculate the average of the five numbers.
+13. average = sum / 5
+
+// c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+14. Display "The average of the five numbers is: " + average
+15. Display "The smallest number is: " + minimum
+16. Display "The largest number is: " + maximum
+17. End
+
+
+-- END --
